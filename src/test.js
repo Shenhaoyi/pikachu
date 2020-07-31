@@ -29,6 +29,10 @@ const player = {
     player.n += 1;
     if (player.n > string.length) {
       window.clearInterval(player.id);
+      // const face = document.querySelectorAll('.face')
+      // face.forEach(item => {
+      //   item.innerHTML = ('<img src="./images/flash.gif" alt="" />')
+      // })
       return;
     }
     // console.log(n + ":" + string.substr(0, n));
